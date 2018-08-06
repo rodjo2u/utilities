@@ -15,12 +15,10 @@ brew install unar
 # Apps
 brew cask install iterm2
 brew cask install google-chrome
-# brew cask install macvim
-brew cask install seil
 brew cask install slack
 brew cask install skype
-brew cask install plex-media-server
-brew cask install plex-media-player
+# brew cask install plex-media-server
+# brew cask install plex-media-player
 brew cask install mysqlworkbench
 brew cask install docker
 brew cask install tunnelblick
@@ -37,6 +35,9 @@ brew cask install bartender
 brew cask install flycut
 brew cask install windscribe
 brew cask install kindle
+brew cask install zeplin
+brew cask install visual-studio-code
+
 
 # oh-my-zsh
 # https://gist.github.com/kevin-smets/8568070
@@ -45,13 +46,9 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 
 # Node tools
-# brew install nvm
+brew install nvm
 # add to ~/.zshrc
-# export NVM_DIR="$HOME/.nvm"
-# . "$(brew --prefix nvm)/nvm.sh"
-# nvm install node
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
+nvm install node
 # npm install -g npm@latest
-# npm install -g bower
-# bower install --save package
-# npm install -g ember-cli
-# npm install -g phantomjs
