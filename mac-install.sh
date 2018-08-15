@@ -1,4 +1,4 @@
-# Homebrew
+# Homebrew - uncomment if homebrew is not installed
 # /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Cask
@@ -9,8 +9,6 @@ brew install wget
 brew install curl
 brew install git
 brew install unar
-
-
 
 # Apps
 brew cask install iterm2
@@ -37,12 +35,13 @@ brew cask install windscribe
 brew cask install kindle
 brew cask install zeplin
 brew cask install visual-studio-code
+brew cask install kap
 
+# vim - add Plug as Plugin manager: https://github.com/junegunn/vim-plug/wiki/tutorial
+# curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-# oh-my-zsh
-# https://gist.github.com/kevin-smets/8568070
+# oh-my-zsh: https://gist.github.com/kevin-smets/8568070
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 
 
 # Node tools
