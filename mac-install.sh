@@ -21,7 +21,8 @@ brew cask install mysqlworkbench
 # brew cask install docker
 brew cask install tunnelblick
 brew cask install postman
-brew cask install folx
+brew cask install qBittorrent
+brew cask install ao
 brew cask install steam
 # brew cask install texmaker
 # brew cask install gitkraken
@@ -29,9 +30,7 @@ brew cask install rescuetime
 brew cask install snippets
 # brew cask install atom
 brew cask install vlc
-# brew cask install bartender
 brew cask install flycut
-brew cask install windscribe
 brew cask install kindle
 brew cask install zeplin
 brew cask install visual-studio-code
