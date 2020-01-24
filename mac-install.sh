@@ -12,29 +12,26 @@ brew install unar
 
 # Apps
 brew cask install iterm2
+brew cask install flycut
 brew cask install google-chrome
-brew cask install slack
 brew cask install skype
-# brew cask install plex-media-server
-# brew cask install plex-media-player
+
+brew cask install slack
 brew cask install mysqlworkbench
-# brew cask install docker
 brew cask install tunnelblick
 brew cask install postman
-brew cask install qBittorrent
-brew cask install ao
-brew cask install steam
-# brew cask install texmaker
-# brew cask install gitkraken
-brew cask install rescuetime
-brew cask install snippets
-# brew cask install atom
-brew cask install vlc
-brew cask install flycut
-brew cask install kindle
-brew cask install zeplin
+brew cask install insomnia
 brew cask install visual-studio-code
-brew cask install kap
+
+brew cask install telegram
+brew cask install qbittorrent
+brew cask install steam
+brew cask install vlc
+brew cask install rescuetime
+# brew cask install texmaker
+# brew cask install plex-media-server
+# brew cask install plex-media-player
+
 
 # vim - add Plug as Plugin manager: https://github.com/junegunn/vim-plug/wiki/tutorial
 # curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
