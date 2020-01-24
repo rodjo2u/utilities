@@ -9,6 +9,8 @@ brew install wget
 brew install curl
 brew install git
 brew install unar
+brew install zsh
+brew install powerlevel9k
 
 # Apps
 brew cask install iterm2
